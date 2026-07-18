@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Cauan - 1 Aninho 🎉 Baby Looney Tunes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- TELA INICIAL - Apresentação -->
+    <section class="tela-inicial" id="telaInicial">
+        <div class="stars" id="stars"></div>
+        <div class="clouds" id="clouds"></div>
+        
+        <div class="sky"></div>
+        
+        <div class="texto-inicial">
+            <h1 class="fade-in-texto">Há um ano...</h1>
+            <p class="fade-in-texto delay-1">Deus nos presenteou com o nosso</p>
+            <p class="fade-in-texto delay-2">maior amor...</p>
+        </div>
+
+        <div class="balloons-container">
+            <div class="balloon balloon-1"></div>
+            <div class="balloon balloon-2"></div>
+            <div class="balloon balloon-3"></div>
+            <div class="balloon balloon-4"></div>
+        </div>
+
+        <div class="scroll-indicator">
+            <p>↓ Deslize para continuar</p>
+        </div>
+    </section>
+
+    <!-- TELA DE PERSONAGENS -->
+    <section class="tela-personagens" id="telaPersonagens">
+        <div class="personagens-entrada">
+            <div class="personagem piu-piu"><span class="emoji">🐥</span></div>
+            <div class="personagem pernalonga"><span class="emoji">🐰</span></div>
+            <div class="personagem taz"><span class="emoji">🌀</span></div>
+            <div class="personagem frajola"><span class="emoji">🐱</span></div>
+        </div>
+
+        <h2 class="texto-personagens">E chegou o grande dia!</h2>
+
+        <div class="scroll-indicator">
+            <p>↓ Deslize para continuar</p>
+        </div>
+    </section>
+
+    <!-- TELA PRINCIPAL - CONVITE -->
+    <section class="tela-principal" id="telaPrincipal">
+        <div class="sky-bg"></div>
+        <div class="clouds-bg" id="cloudsBg"></div>
+        
+        <div class="confetti" id="confetti"></div>
+
+        <div class="container-convite">
+            <!-- Header com Baby Looney Tunes -->
+            <div class="header-baby">
+                <h1 class="baby-looney">🎬 BABY LOONEY TUNES 🎬</h1>
+            </div>
+
+            <!-- Dados do Aniversário -->
+            <div class="dados-aniversario">
+                <h2 class="nome-aniversariante">Anthony Cauan</h2>
+                
+                <div class="ano-box">
+                    <span class="ano">1</span>
+                    <span class="ano-texto">ANINHO</span>
+                </div>
+
+                <div class="info-evento">
+                    <div class="info-item">
+                        <span class="icon">📅</span>
+                        <p>20/09/2026</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">⏰</span>
+                        <p>14:00</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <p>Local A combinar</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sugestões de Presentes -->
+            <div class="sugestoes-presentes">
+                <h3>Sugestão de Presentes</h3>
+                <div class="presentes-grid">
+                    <div class="presente-card">
+                        <span class="presente-emoji">👟</span>
+                        <p>Sapato 21</p>
+                    </div>
+                    <div class="presente-card">
+                        <span class="presente-emoji">👕</span>
+                        <p>Roupa 2 anos</p>
+                    </div>
+                    <div class="presente-card">
+                        <span class="presente-emoji">🧸</span>
+                        <p>Brinquedos Educativos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botões de Ação -->
+            <div class="botoes-acao">
+                <a href="https://wa.me/5583998174426?text=Olá!%20Gostaria%20de%20confirmar%20minha%20presença%20no%20aniversário%20do%20Anthony%20Cauan." 
+                   class="btn btn-confirmar" target="_blank">
+                    ✔ CONFIRMAR PRESENÇA
+                </a>
+                
+                <a href="https://wa.me/5583998174426?text=Olá!%20Gostaria%20da%20lista%20de%20presentes%20do%20Anthony%20Cauan." 
+                   class="btn btn-presentes" target="_blank">
+                    🎁 LISTA DE PRESENTES
+                </a>
+            </div>
+
+            <!-- Bolo com animação -->
+            <div class="bolo-container">
+                <div class="bolo">🎂</div>
+            </div>
+        </div>
+
+        <!-- Rodapé com data -->
+        <footer class="footer">
+            <p>Te esperamos nesta festa especial! 🎉</p>
+        </footer>
+    </section>
+
+    <!-- Audio de fundo -->
+    <audio id="musica" loop volume="0.3">
+        <source src="assets/audio/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
